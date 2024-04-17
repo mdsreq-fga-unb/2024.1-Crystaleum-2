@@ -1,6 +1,6 @@
 # Project information
 site_name: Crystaleum-2
-site_url: https://github.com/mdsreq-fga-unb/2024.1-Crystaleum
+site_url: https://github.com/mdsreq-fga-unb/2024.1-Crystaleum-2
 
 # Repository
 repo_name: mdsreq-fga-unb/2024.1-Crystaleum-2
@@ -28,7 +28,17 @@ theme:
   favicon: assets/favicon.png
   icon:
     logo: logo
+  features:
+    - navigation.tabs
 
 # Page tree
 nav:
   - Home: index.md
+  - História:
+      - História Vanguarda: historia/nossa-historia.md
+  - Visão Geral do Produto:
+      - Problema: visao-produto/problema.md
+
+  - Visão Geral do Projeto:
+      - Organizacao do Projeto: visao-projeto/organizacao-projeto.md
+
