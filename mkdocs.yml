@@ -33,9 +33,7 @@ theme:
 
 # Page tree
 nav:
-  - Home: index.md
-  - História:
-      - História Vanguarda: historia/nossa-historia.md
+  - Nossa história: index.md
   - Visão Geral do Produto:
       - Problema: visao-produto/problema.md
 
