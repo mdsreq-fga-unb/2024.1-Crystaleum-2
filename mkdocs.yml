@@ -37,6 +37,7 @@ nav:
   - História:
       - História Vanguarda: historia/nossa-historia.md
   - Visão Geral do Produto:
+      - Posição do Produto: visao-produto/posicao-produto.md
       - Problema: visao-produto/problema.md
 
   - Visão Geral do Projeto:
