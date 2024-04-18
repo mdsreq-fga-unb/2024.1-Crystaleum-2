@@ -33,9 +33,7 @@ theme:
 
 # Page tree
 nav:
-  - Home: index.md
-  - História:
-      - História Vanguarda: historia/nossa-historia.md
+  - Nossa história: index.md
   - Material do Seminário: materiais-seminario/processos.md
   - Visão Geral do Produto:
       - Posição do Produto: visao-produto/posicao-produto.md
