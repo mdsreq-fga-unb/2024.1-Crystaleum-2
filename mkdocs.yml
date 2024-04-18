@@ -34,9 +34,11 @@ theme:
 # Page tree
 nav:
   - Nossa história: index.md
+  - Material do Seminário: materiais-seminario/processos.md
   - Visão Geral do Produto:
+      - Posição do Produto: visao-produto/posicao-produto.md
       - Problema: visao-produto/problema.md
 
   - Visão Geral do Projeto:
-      - Organizacao do Projeto: visao-projeto/organizacao-projeto.md
+      - Organização do Projeto: visao-projeto/organizacao-projeto.md
 
