@@ -18,7 +18,7 @@
 - Entrega de valor só acontece no fim do processo.
 
 
-![Processo em Cascata](../assets/images/cascata.png)
+![Processo em Cascata](../../assets/images/cascata.png)
 <center>
 [Fonte](https://rimitsen20.thkit.ee/wp/cascade-model-waterfall-model/)
 </center>
@@ -41,7 +41,7 @@
 - Maior complexidade: este processo é um dos mais complexos de ser planejado e executado;
 - Muito dependente da análise de riscos: caso a análise de riscos não seja bem feita, há grandes chances do projeto ser desnecessariamente mais caro e sair do controle.
 
-![Processo em Espiral](../assets/images/spiral-model.png)
+![Processo em Espiral](../../assets/images/spiral-model.png)
 <center>
 [Fonte](https://www.sitesbay.com/software-engineering/se-spiral-model)
 </center>
