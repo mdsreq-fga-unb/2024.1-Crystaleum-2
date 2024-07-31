@@ -38,6 +38,12 @@ nav:
       - Posição do Produto: visao-produto/posicao-produto.md
       - Problema: visao-produto/problema.md
 
+  - Acompanhamento:
+      - Atas: 
+        - Ata de Reunião 1: acompanhamento/atas/ata1.md
+      - Relatórios: 
+        - Relatório 1: acompanhamento/relatorios/relatorio1.md
+  
   - Visão Geral do Projeto:
       - Organização do Projeto: visao-projeto/organizacao-projeto.md
 
