@@ -13,7 +13,9 @@ Ao final das 5 fases (3 fases no MVP 1) o jogador será vencedor se sua pontuaç
 
 ## Backlog
 
-A tabela abaixo representa o backlog inicial do projeto, utilizando o framework SAFE, determinando para cada item o Épico, a Funcionalidade e a História de Usuário (US).
+A tabela abaixo representa o backlog inicial do projeto, utilizando o framework (Scaled Agile Framework) (SAFe), determinando para cada item o Épico, a Funcionalidade e a História de Usuário (US).
+
+Utilizamos o framework SAFe pois este é um framework que prioriza práticas ágeis. Ele inclui uma orientação estruturada para as posições e responsabilidades do Dono do Produto, Arquitetos de Solução e Engenheiros de Sistema.
 
 Uma breve descrição de cada coluna:
 
