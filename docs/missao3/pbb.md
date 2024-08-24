@@ -7,7 +7,7 @@ Esta página se dedica a explicar a resolução do exercício proposto pela prof
 
 ## Miro
 
-<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKmm5xro=/?moveToViewport=-1961,-844,4232,2131&embedId=805339840630" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKmm5xro=/?moveToViewport=-3753,-1220,6978,3514&embedId=756040507829" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
 ## Funcionalidades
 

@@ -1,3 +1,3 @@
 ## **MIRO com o USM**
 
-<iframe width="768" height="432" src="https://miro.com/app/board/uXjVKmsring=/" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKmsring=/?moveToViewport=-9585,-4822,19378,9760&embedId=279639775643" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
