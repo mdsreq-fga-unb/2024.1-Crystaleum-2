@@ -56,4 +56,7 @@ nav:
   - Missão 2: 
       - Backlog: missao2/backlog.md
       - Apresentação: missao2/apresentacao.md
-
+  - Missão 3:
+      - PBB: missao3/pbb.md
+      - USM: missao3/usm.md
+  
