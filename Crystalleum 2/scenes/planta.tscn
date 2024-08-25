@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://bfufw66j05h7o"]
+
+[ext_resource type="Texture2D" uid="uid://benidkak6n5o7" path="res://assets/planta-crys.png" id="1_q4eqv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x26y4"]
+size = Vector2(33, 38)
+
+[node name="planta" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(4.5, 3)
+shape = SubResource("RectangleShape2D_x26y4")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(4.66875, 3.26484)
+scale = Vector2(0.16506, 0.150328)
+texture = ExtResource("1_q4eqv")

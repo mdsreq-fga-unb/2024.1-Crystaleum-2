@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://hvauvgxhksoy"]
+
+[ext_resource type="Texture2D" uid="uid://p4sv8qmolrse" path="res://assets/fantasminha.png" id="1_bv4l6"]
+
+[node name="fantasminha" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(268, 47)
+scale = Vector2(0.134832, 0.129572)
+texture = ExtResource("1_bv4l6")

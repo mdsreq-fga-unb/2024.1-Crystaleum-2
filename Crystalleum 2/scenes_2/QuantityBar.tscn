@@ -1,0 +1,63 @@
+[gd_scene load_steps=5 format=3 uid="uid://c3u2j5xiskdoh"]
+
+[ext_resource type="FontFile" uid="uid://bhjgpy1dovmyq" path="res://addons/gut/fonts/CourierPrime-Bold.ttf" id="1_ir44i"]
+[ext_resource type="Script" path="res://scenes_2/quantity_bar.gd" id="1_udf0j"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2siry"]
+bg_color = Color(0.3752, 0.47684, 0.56, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nx1gr"]
+bg_color = Color(0.35545, 0.595569, 0.976487, 1)
+
+[node name="QuantityBar" type="Control"]
+custom_minimum_size = Vector2(64, 10)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 64.0
+offset_bottom = 8.0
+script = ExtResource("1_udf0j")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = -2
+
+[node name="NameLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_ir44i")
+theme_override_font_sizes/font_size = 4
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+custom_minimum_size = Vector2(64, 0)
+layout_mode = 2
+theme_override_constants/separation = 2
+
+[node name="MinLabel" type="Label" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_ir44i")
+theme_override_font_sizes/font_size = 4
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ProgressBar" type="ProgressBar" parent="VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_styles/background = SubResource("StyleBoxFlat_2siry")
+theme_override_styles/fill = SubResource("StyleBoxFlat_nx1gr")
+rounded = true
+show_percentage = false
+
+[node name="max_label" type="Label" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_ir44i")
+theme_override_font_sizes/font_size = 4
+text = "100"
+horizontal_alignment = 1
+vertical_alignment = 1

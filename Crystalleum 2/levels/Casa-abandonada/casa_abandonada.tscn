@@ -1,0 +1,48 @@
+[gd_scene load_steps=12 format=3 uid="uid://cx368qpcw1v3l"]
+
+[ext_resource type="Script" path="res://levels/Casa-abandonada/casa_abandonada.gd" id="1_ej1c7"]
+[ext_resource type="Texture2D" uid="uid://b7u6b0ngs008j" path="res://levels/Casa-abandonada/casa-abandonada-avo.png" id="1_wba56"]
+[ext_resource type="PackedScene" uid="uid://boaoqo62kqk2" path="res://scenes/crys.tscn" id="4_gxk8l"]
+[ext_resource type="PackedScene" path="res://scenes/aranha_caindo.tscn" id="5_k3l42"]
+[ext_resource type="PackedScene" uid="uid://dxug47o62oxiw" path="res://scenes/vela_2.tscn" id="5_u3vh4"]
+[ext_resource type="PackedScene" path="res://scenes/aranha.tscn" id="6_nr34f"]
+[ext_resource type="PackedScene" uid="uid://uk6lat85upm6" path="res://scenes/mesalencol.tscn" id="7_ufw1e"]
+[ext_resource type="PackedScene" uid="uid://xs2oe31shx5h" path="res://scenes/diario.tscn" id="8_pyn12"]
+[ext_resource type="PackedScene" uid="uid://cuqoyarf0hotp" path="res://scenes/vela.tscn" id="9_abxcn"]
+[ext_resource type="PackedScene" uid="uid://bnil85eyu41l4" path="res://scenes/caixas.tscn" id="9_pt6p8"]
+[ext_resource type="PackedScene" uid="uid://hvauvgxhksoy" path="res://scenes/fantasminha.tscn" id="11_0xvpw"]
+
+[node name="casa-abandonada" type="Node2D"]
+script = ExtResource("1_ej1c7")
+
+[node name="background" type="Sprite2D" parent="."]
+position = Vector2(160, 91)
+scale = Vector2(0.555555, 0.565628)
+texture = ExtResource("1_wba56")
+
+[node name="fantasminha" parent="." instance=ExtResource("11_0xvpw")]
+position = Vector2(-16, 28)
+
+[node name="caixas" parent="." instance=ExtResource("9_pt6p8")]
+position = Vector2(-66, -12)
+
+[node name="vela2" parent="." instance=ExtResource("5_u3vh4")]
+position = Vector2(-123, 10)
+
+[node name="mesalencol" parent="." instance=ExtResource("7_ufw1e")]
+position = Vector2(-60, 92)
+
+[node name="Crys" parent="." instance=ExtResource("4_gxk8l")]
+position = Vector2(107, 147)
+
+[node name="diario_avo" parent="." instance=ExtResource("8_pyn12")]
+position = Vector2(98, 22)
+
+[node name="vela" parent="." instance=ExtResource("9_abxcn")]
+position = Vector2(9, -16)
+
+[node name="aranha-caindo" parent="." instance=ExtResource("5_k3l42")]
+position = Vector2(151, 16)
+
+[node name="aranha" parent="." instance=ExtResource("6_nr34f")]
+position = Vector2(56, 10)

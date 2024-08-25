@@ -1,0 +1,108 @@
+[gd_scene load_steps=8 format=3 uid="uid://3lpkqn01prw3"]
+
+[ext_resource type="Texture2D" uid="uid://pyveaxd3bhrw" path="res://personagem/assets/pirata/sprite-pirata.png" id="1_1kito"]
+[ext_resource type="Script" path="res://scripts/pirata.gd" id="1_l7rhm"]
+
+[sub_resource type="Animation" id="Animation_vbult"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_1kito")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_2b2fa"]
+resource_name = "pirata"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_1kito")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 13]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_mh4lw"]
+_data = {
+"RESET": SubResource("Animation_vbult"),
+"pirata": SubResource("Animation_2b2fa")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_on15t"]
+size = Vector2(33, 67)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7xufp"]
+size = Vector2(53, 87)
+
+[node name="pirata" type="CharacterBody2D"]
+script = ExtResource("1_l7rhm")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(64, 60.75)
+scale = Vector2(0.613333, 0.616667)
+texture = ExtResource("1_1kito")
+hframes = 14
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_mh4lw")
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(61.5, 62.5)
+shape = SubResource("RectangleShape2D_on15t")
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2(-125, -41)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(188.5, 104.5)
+shape = SubResource("RectangleShape2D_7xufp")
+
+[node name="Button" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0)
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 48.0
+offset_top = 31.0
+offset_right = 78.0
+offset_bottom = 91.0
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_pirata_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_pirata_exited"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

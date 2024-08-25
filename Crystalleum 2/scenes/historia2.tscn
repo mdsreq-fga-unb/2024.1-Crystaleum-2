@@ -1,0 +1,86 @@
+[gd_scene load_steps=6 format=3 uid="uid://dut6miaen2cmf"]
+
+[ext_resource type="Script" path="res://scripts/historia2.gd" id="1_kh127"]
+[ext_resource type="Texture2D" uid="uid://cu7d36apijxju" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 01 - Void.png" id="2_fm1br"]
+[ext_resource type="Texture2D" uid="uid://deycaaa0ln5dn" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 02 - Stars.png" id="2_jn5so"]
+[ext_resource type="Theme" uid="uid://dyyka4ilsiwu8" path="res://assets/temaButton.tres" id="3_p85fs"]
+[ext_resource type="FontFile" uid="uid://ncbwmv62n8av" path="res://assets/fontes/crang/Crang.ttf" id="4_17xqk"]
+
+[node name="Historia2" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_kh127")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(10, 164)
+texture = ExtResource("2_fm1br")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_jn5so")
+expand_mode = 1
+stretch_mode = 3
+
+[node name="BoxContainer" type="BoxContainer" parent="TextureRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ButtonSkip" type="Button" parent="."]
+texture_filter = 6
+texture_repeat = 1
+layout_direction = 2
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -35.0
+offset_top = -26.0
+offset_right = -9.0
+offset_bottom = -7.0
+grow_horizontal = 0
+grow_vertical = 0
+size_flags_vertical = 0
+size_flags_stretch_ratio = 0.0
+theme = ExtResource("3_p85fs")
+theme_override_font_sizes/font_size = 9
+text = ">>"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 2
+offset_left = 24.0
+offset_top = 32.0
+offset_right = 289.0
+offset_bottom = 155.0
+size_flags_horizontal = 4
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.0901961, 0.0901961, 0.0901961, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("4_17xqk")
+theme_override_font_sizes/font_size = 9
+text = "Diante  deste  cenário  caótico  em  Calamum
+ Caereleum,  foi  fundado  o  Comando  Estelar.
+
+Uma  força  de  combate  que  uniu 
+as  vítimas  dos  conglomerados  em  prol  de 
+restaurar  o  equilíbrio  galático  e  frear  o 
+avanço  predatório  das  grandes  corporações..."
+horizontal_alignment = 1
+vertical_alignment = 1
+text_direction = 1
+
+[connection signal="pressed" from="ButtonSkip" to="." method="_on_button_skip_pressed"]

@@ -1,0 +1,21 @@
+import "res://dialogos/DialogoQuizCacador.dialogue" as cacador
+import "res://dialogos/DialogoQuizExploradora.dialogue" as exploradora
+import "res://dialogos/DialogoQuizGuardiao.dialogue" as guardiao
+import "res://dialogos/DialogoQuizMercenaria.dialogue" as mercenaria
+
+~ startQuiz
+
+if Global.finishedQuiz == false:
+	if Global.mercenario == true:
+		=> mercenaria/startQuiz
+		=> END 
+	if Global.explorador == true:
+		=> exploradora/startQuiz
+		=> END 
+	if Global.guardiao == true:
+		=> guardiao/startQuiz
+		=> END 
+	if Global.cacador == true:
+		=> cacador/startQuiz
+		=> END
+

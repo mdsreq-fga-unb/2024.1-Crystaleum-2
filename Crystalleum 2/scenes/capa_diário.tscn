@@ -1,0 +1,60 @@
+[gd_scene load_steps=6 format=3 uid="uid://dm0p5n08cs0fd"]
+
+[ext_resource type="Script" path="res://scripts/capa_diário.gd" id="1_c2i5y"]
+[ext_resource type="Texture2D" uid="uid://cu7d36apijxju" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 01 - Void.png" id="2_aveec"]
+[ext_resource type="Texture2D" uid="uid://bhpo5vmdpsfom" path="res://assets/diario (1).png" id="2_tnnxf"]
+[ext_resource type="FontFile" uid="uid://bwrdb5hiniyto" path="res://assets/fontes/rainyhearts/rainyhearts.ttf" id="3_d12ok"]
+[ext_resource type="Theme" uid="uid://dyyka4ilsiwu8" path="res://assets/temaButton.tres" id="4_ld6yk"]
+
+[node name="CapaDiário" type="Node2D"]
+script = ExtResource("1_c2i5y")
+
+[node name="fundo preto" type="Sprite2D" parent="."]
+position = Vector2(161, 90.5)
+scale = Vector2(1, 0.56)
+texture = ExtResource("2_aveec")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(165, 70)
+scale = Vector2(3, 2.484)
+texture = ExtResource("2_tnnxf")
+
+[node name="Titulo diario" type="Label" parent="Sprite2D"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -46.0
+offset_top = -45.5258
+offset_right = -18.0
+offset_bottom = -26.5258
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("3_d12ok")
+theme_override_font_sizes/font_size = 7
+text = "Diário de G.M. 2023"
+autowrap_mode = 3
+
+[node name="ButtonSkip" type="Button" parent="."]
+texture_filter = 6
+texture_repeat = 1
+layout_direction = 2
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 286.0
+offset_top = 153.0
+offset_right = 312.0
+offset_bottom = 172.0
+grow_horizontal = 0
+grow_vertical = 0
+size_flags_vertical = 0
+size_flags_stretch_ratio = 0.0
+theme = ExtResource("4_ld6yk")
+theme_override_font_sizes/font_size = 9
+text = ">>"
+
+[connection signal="pressed" from="ButtonSkip" to="." method="_on_button_skip_pressed"]

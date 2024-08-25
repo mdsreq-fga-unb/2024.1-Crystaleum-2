@@ -1,0 +1,84 @@
+[gd_scene load_steps=10 format=3 uid="uid://b43d8vqylis1d"]
+
+[ext_resource type="Texture2D" uid="uid://c2niy0jmhfqiq" path="res://personagem/assets/exploradora/exploradoraa.png" id="1_bblt3"]
+[ext_resource type="Script" path="res://scripts/exploradora.gd" id="1_j1e06"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1bdee"]
+size = Vector2(37, 79)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6mhje"]
+atlas = ExtResource("1_bblt3")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f41m7"]
+atlas = ExtResource("1_bblt3")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_me25m"]
+atlas = ExtResource("1_bblt3")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0i6qx"]
+atlas = ExtResource("1_bblt3")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jj6sq"]
+atlas = ExtResource("1_bblt3")
+region = Rect2(256, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6lxy3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6mhje")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f41m7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_me25m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0i6qx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jj6sq")
+}],
+"loop": true,
+"name": &"default",
+"speed": 3.0
+}]
+
+[node name="exploradora" type="StaticBody2D" groups=["npc"]]
+position = Vector2(136, 76)
+script = ExtResource("1_j1e06")
+metadata/_edit_group_ = true
+
+[node name="Area2D" type="Area2D" parent="."]
+light_mask = 3
+visibility_layer = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-4.5, 9.5)
+shape = SubResource("RectangleShape2D_1bdee")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_6lxy3")
+autoplay = "default"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(-1.5, 1)
+shape = SubResource("RectangleShape2D_1bdee")
+
+[node name="Button" type="Button" parent="."]
+modulate = Color(1, 1, 1, 0)
+self_modulate = Color(1, 1, 1, 0)
+offset_left = -15.0
+offset_top = -29.0
+offset_right = 13.0
+offset_bottom = 30.0
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_Exploradora_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_Exploradora_body_exited"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

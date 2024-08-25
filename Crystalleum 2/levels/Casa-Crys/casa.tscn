@@ -1,0 +1,94 @@
+[gd_scene load_steps=16 format=3 uid="uid://dbn08dlco5i3m"]
+
+[ext_resource type="Script" path="res://levels/Casa-Crys/casa.gd" id="1_g0hja"]
+[ext_resource type="Texture2D" uid="uid://ddfk8m7fx8lhg" path="res://levels/Casa-Crys/assets/casa.png" id="1_tkha2"]
+[ext_resource type="PackedScene" uid="uid://clbdoce1o1b6m" path="res://scenes/mami_crys.tscn" id="4_8m450"]
+[ext_resource type="PackedScene" uid="uid://boaoqo62kqk2" path="res://scenes/crys.tscn" id="5_mvvd7"]
+[ext_resource type="PackedScene" uid="uid://bfufw66j05h7o" path="res://scenes/planta.tscn" id="6_eeleh"]
+[ext_resource type="PackedScene" uid="uid://d4hfr5u8h7wtj" path="res://scenes/bau.tscn" id="6_tdhmc"]
+[ext_resource type="PackedScene" uid="uid://b3esh5yjigtt6" path="res://scenes/chao.tscn" id="7_farpm"]
+[ext_resource type="PackedScene" uid="uid://clhkknt2dvs10" path="res://scenes/gambiarra_chao.tscn" id="8_oy1bc"]
+[ext_resource type="PackedScene" uid="uid://cj3fb7ijb1xsw" path="res://scenes/gambiarra_rosa.tscn" id="10_65gc8"]
+[ext_resource type="PackedScene" uid="uid://duslok1lcetto" path="res://scenes/quadros.tscn" id="11_wkl4e"]
+[ext_resource type="PackedScene" uid="uid://bpdtc1hbxqe73" path="res://scenes/mesacasa.tscn" id="12_fuu8a"]
+[ext_resource type="PackedScene" uid="uid://dmr0fcamx7t56" path="res://joystick/virtual_joystick.tscn" id="13_755wd"]
+[ext_resource type="PackedScene" uid="uid://dctoc46g2vyk3" path="res://scenes/comidinha.tscn" id="13_c4tiw"]
+[ext_resource type="Texture2D" uid="uid://ybf284rh22lx" path="res://assets/minimapabutton.png" id="14_1ukw4"]
+[ext_resource type="Texture2D" uid="uid://bqwg2g85jjhit" path="res://assets/mini-caderno.png" id="15_64n3y"]
+
+[node name="casa" type="Node2D"]
+script = ExtResource("1_g0hja")
+
+[node name="background-casa" type="Sprite2D" parent="."]
+position = Vector2(161, 90)
+scale = Vector2(0.555555, 0.5625)
+texture = ExtResource("1_tkha2")
+
+[node name="bau" parent="." instance=ExtResource("6_tdhmc")]
+position = Vector2(141, 25)
+
+[node name="gambiarra-rosa" parent="." instance=ExtResource("10_65gc8")]
+position = Vector2(-43, -25)
+
+[node name="quadros" parent="gambiarra-rosa" instance=ExtResource("11_wkl4e")]
+position = Vector2(92, 28)
+
+[node name="gambiarra-chao" parent="." instance=ExtResource("8_oy1bc")]
+visible = false
+position = Vector2(185, 32)
+
+[node name="chao" parent="gambiarra-chao" instance=ExtResource("7_farpm")]
+position = Vector2(-24, -21)
+
+[node name="planta" parent="." instance=ExtResource("6_eeleh")]
+position = Vector2(25, 82)
+
+[node name="mesacasa" parent="." instance=ExtResource("12_fuu8a")]
+position = Vector2(104, -12)
+scale = Vector2(0.978672, 1.10746)
+
+[node name="comidinha" parent="." instance=ExtResource("13_c4tiw")]
+position = Vector2(54, 6)
+scale = Vector2(0.98821, 1.15213)
+
+[node name="Test" type="Node2D" parent="."]
+
+[node name="UI" type="CanvasLayer" parent="Test"]
+
+[node name="Virtual joystick left" parent="Test/UI" instance=ExtResource("13_755wd")]
+offset_left = 15.0
+offset_top = -55.0
+offset_right = 256.0
+offset_bottom = 173.0
+scale = Vector2(0.2, 0.2)
+pressed_color = Color(0.843137, 0.74902, 0.152941, 1)
+deadzone_size = 0.0
+clampzone_size = 15.0
+visibility_mode = 1
+
+[node name="minimapabutton-casa-crys" type="TextureButton" parent="Test/UI"]
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 34.0
+offset_bottom = 34.0
+texture_normal = ExtResource("14_1ukw4")
+stretch_mode = 0
+
+[node name="Mini-caderno-casa-crys" type="TextureButton" parent="Test/UI"]
+offset_left = 286.0
+offset_top = 6.0
+offset_right = 314.0
+offset_bottom = 34.0
+texture_normal = ExtResource("15_64n3y")
+stretch_mode = 0
+
+[node name="Node2D" type="Node2D" parent="."]
+y_sort_enabled = true
+
+[node name="Crys" parent="Node2D" instance=ExtResource("5_mvvd7")]
+y_sort_enabled = true
+position = Vector2(177, 87)
+
+[node name="mami-crys" parent="Node2D" instance=ExtResource("4_8m450")]
+position = Vector2(-85, 45)
+scale = Vector2(0.999043, 1.00777)
