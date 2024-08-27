@@ -1,3 +1,0 @@
-# Vídeo de Apresentação da Missão 1
-
-[Vídeo de Apresentação da missão 1](https://unbbr.sharepoint.com/:v:/s/MoonWalkers/EWluwmYTOphIrOCxEVcxFnQBvVjvZxFWMdV3_-t3wB6XPw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=hOljiN)
