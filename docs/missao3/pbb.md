@@ -68,7 +68,7 @@ a saúde do paciente
 - Auditoria manual falha e ineficiente
 - Prescrições não são incluídas no sistema
 
-## Espectativas
+## Expectativas
 
 - Sistema rápido
 - Interface amigável
