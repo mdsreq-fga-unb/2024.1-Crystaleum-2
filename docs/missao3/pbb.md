@@ -87,4 +87,4 @@ a saúde do paciente
 
 | Versão |Descrição|Autor(es)|Data|Revisor(es) |Data de revisão|
 |---|--|----|----|--| -- |  
-1.0 | Pedro Sena |    |   23/08/2024 | |
+1.0 | Realização do PBB |  Pedro Sena   |   23/08/2024 | |
