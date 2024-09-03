@@ -13,15 +13,15 @@ Ao final das 5 fases (3 fases no MVP 1) o jogador será vencedor se sua pontuaç
 
 ## Backlog
 
-A tabela abaixo representa o backlog inicial do projeto, utilizando o framework (Scaled Agile Framework) (SAFe), determinando para cada item o Épico, a Funcionalidade e a História de Usuário (US).
+A [tabela abaixo](#requisitos-funcionais) de Requisitos Funcionais abaixo representa o backlog inicial do projeto com seus devidos [critérios de aceitação](#criterios-de-aceitacao), utilizando o framework (Scaled Agile Framework) (SAFe), determinando para cada item o Épico, a Funcionalidade e a História de Usuário (US).
 
 Utilizamos o framework SAFe pois este é um framework que prioriza práticas ágeis. Ele inclui uma orientação estruturada para as posições e responsabilidades do Dono do Produto, Arquitetos de Solução e Engenheiros de Sistema.
+
+Também foram elencados alguns requisitos não funcionais, representados pela [tabela abaixo](#requisitos-nao-funcionais).
 
 Uma breve descrição de cada coluna:
 
 **ID**: identificador do item, serve para facilitar a referenciação.
-
-**Tipo**: classifica o item em Requisito Funcional (**RF**) e Requisito Não Funcional (**RFN**). 
 
 **Épico**: determina a qual épico o item pertence. 
 
@@ -30,19 +30,47 @@ Uma breve descrição de cada coluna:
 **US**: História(s) de usuário que compõe(m) a funcionalidade.
 
 
-|ID |Tipo | Épico | Funcionalidade | US |
-|--|---------------|------------| ---- | --- |
-|1| RF | Processo de desenvolvimento | Minigame de escolha de processo | Eu como usuário, quero escolher um processo de desenvolvimento para um projeto com determinadas características para obter uma pontuação no jogo |
-| 2 |RF | Regras de negócio | Minigame de identificação de regras de negócio | Eu como usuário, quero poder identificar o tipo de uma regra de negócio para obter pontuação no jogo |
-| 3|RF | Backlog | Minigame de backlog com PBB | Eu como usuário, quero poder jogar um minigame de montagem de backlog utilizando o PBB para obter pontuação no jogo |
-| 4| RF | Backlog | Minigame de backlog com USM | Eu como usuário, quero poder jogar um minigame de montagem de backlog utilizando o USM para obter pontuação no jogo |
-| 5 |RF | Backlog | Minigame de escrita de requisitos | Eu como usuário, quero poder jogar um minigame de avaliação de escrita de requisitos para obter pontuação no jogo |
-| 6 |RNF | - |Mínimo de memória: 100 MB | - |
-| 7 |RNF | - | O jogo será executado em ambiente offline, com permissão de acesso para instalação de apps estranhos às lojas de aplicativos | - |
-| 8 |RNF | - | O jogo será executado em dispositivos smartphone com telas de até 6 polegadas; não haverá suporte para telas maiores como em tablet | - |
-| 9 |RF | Aspectos Humanos | Minigame de organização de equipe | - |
-| 10 | RF |  Casos de uso | Minigame de elaboração/correção de casos de uso | - |
+### Requisitos Funcionais
 
+
+|ID | Épico | Funcionalidade | US | Critério de aceitação
+| - |------------| ---- | --- | - |
+|1| Processo de desenvolvimento | Primeira pergunta do questionário | Eu como usuário, quero ler a característica de um método de desenvolvimento de software aleatório e escolher  o método correspondente |  - |
+|2| Processo de desenvolvimento | Primeira pergunta do questionário | Eu como usuário, quero receber uma pontuação relacionada à exatidão da escolha da alternativa no fim do jogo |  - |
+|3| Processo de desenvolvimento | Segunda pergunta do questionário | Eu como usuário, quero escolher um processo de desenvolvimento para um projeto com determinadas características para obter uma pontuação no jogo |  - |
+|4| Processo de desenvolvimento | Terceira pergunta do questionário | Eu como usuário, quero escolher um processo de desenvolvimento para um projeto com determinadas características para obter uma pontuação no jogo |  - |
+| 9 | Aspectos Humanos | Minigame de organização de equipe | Eu como jogador, quero entender a situação atual do projeto fictício | 999 |
+| 9 | Aspectos Humanos | Minigame de organização de equipe | Eu como jogador, quero saber os possíveis participantes da equipe solucionadora | 9999 |
+| 9 | Aspectos Humanos | Minigame de organização de equipe | Eu como jogador, quero escolher os dos participantes da equipe com base em seus atributos | 999 |
+| 9 | Aspectos Humanos | Minigame de organização de equipe | Eu como jogador, quero ver os atributos da equipe como um todo | 999 |
+| 8| Backlog | Minigame de backlog com PBB | Eu como usuário, quero poder visualizar o backlog do software a ser desenvolvido pela equipe de desenvolvimento da gamificação |  - |
+| 9| Backlog | Minigame de backlog com PBB | Eu como usuário, quero ordenar o backlog do software a ser desenvolvido pela equipe de desenvolvimento da gamificação utilizando o método COOrg |  1 |
+| 10| Backlog | Minigame de backlog com PBB | Eu como usuário, quero receber uma pontuação desta tarefa que será contabilizada na pontuação final do jogo |  - |
+| 11 | Backlog | Minigame de escolha de PBI com modelo ARO | Eu como usuário, quero ler uma lista de PBI e identificar os que estão escritos em modelo ARO | - |
+| 12 | Backlog | Minigame de escolha de PBI com modelo ARO | Eu como usuário, quero receber uma pontuação relacionada à exatidão da escolha da alternativa no fim do jogo | - |
+| 13 | Backlog | Pergunta de backlog com USM | Eu como usuário, quero ler a pergunta sobre USM e poder marcar uma resposta | - |
+| 14 | Backlog | Pergunta de backlog com USM | Eu como usuário, quero receber uma pontuação relacionada à exatidão da escolha da alternativa no fim do jogo | - |
+| 15 | Regras de negócio | Minigame de organização de equipe | - | - |
+| 16 | Casos de uso | Minigame de elaboração/correção de casos de uso | - | - |
+
+### Critérios de aceitação
+
+| ID | US | Descrição |
+| - | - | - |
+| 1 | 9 | O usuário tem que ordenar o backlog clicando nas US na ordem correta, da primeira à última |
+| 2 | 9 | A pontuação do usuário nesta tarefa será contabilizada para aferição da pontuação final |
+| - | - | - |
+| - | - | - |
+
+
+
+### Requisitos Não Funcionais
+
+|ID | Categoria | Funcionalidade | 
+|--| - | ---- |
+| 1 | Desempenho |Mínimo de memória: 100 MB |
+| 2 | Compatibilidade | O jogo será executado em ambiente offline, com permissão de acesso para instalação de apps estranhos às lojas de aplicativos |
+| 3 | Compatibilidade | O jogo será executado em dispositivos smartphone com telas de até 6 polegadas; não haverá suporte para telas maiores como em tablet |
 
 ## MVP
 
@@ -56,3 +84,4 @@ Os itens restantes serão considerados incrementos a serem implementados em iter
 | Versão |Descrição|Autor(es)|Data|Revisor(es) |Data de revisão|
 |---|--|----|----|--| -- |  
 1.0 |  Criação da versão inicial do documento |  Lara, Pedro, Aline, Tomas, Antonio, Lucas  |   31/07/2024 | |
+1.1 |  Alteração do backlog para resolução de issues | Pedro, Tomas, Aline  |   02/09/2024 | |
