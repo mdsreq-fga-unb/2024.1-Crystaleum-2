@@ -44,15 +44,17 @@
 
 ## **Gerenciamento de Riscos**
 
-| Iteração | Chance  | Natureza | Risco                                  | Solução                                              | Impacto |
-|----------|---------|----------|----------------------------------------|------------------------------------------------------|---------|
-| 1        | Pessoal | Computador dar defeito                  | Reinstalar OS                                        | 4       |4
-| 1        | Externo | Semestre ser cancelado                  | Não há                                               | 5       |5
-| 2        | Pessoal | Membros trancarem a disciplina          | Tentar convencer os estudantes e torcer             | 5       |5
-| 3        | Pessoal | Conflito de horário com outras disciplinas | Trancar disciplinas, encontrar tempo fora do turno diurno | 3    |3
-| 4        | Pessoal | Falta de conhecimento com as tecnologias | Estudo, pareamento                                   | 5       |5
-| 3        | Planejamento | Dificuldade de organização das tarefas | Informações acerca de entregas centralizadas no grupo de Whatsapp da equipe | 4 |4
-| 4        | Planejamento | Dificuldade de encontrar tempo para reuniões | Planejamento feito com antecedência entre os membros | 4       |4
-| 4        | Pessoal | Falta em reuniões                       | Conversa e conciliação entre membros                | 3       |3
-| 3        | Planejamento | Atraso nas entregas                     | Conciliação de horários e balanceamento de tarefas | 5       |5
-| 3        | Externo | Mudança dos requisitos                  | Readequação da equipe                               | 4       |4
+| Iteração | Risco                                        | Chance | Impacto | Natureza     | Solução                                                                     |
+|----------|----------------------------------------------|--------|---------|--------------|-----------------------------------------------------------------------------|
+| 1        | Computador dar defeito                       | 4      |4        | Pessoal      | Reinstalar OS                                                               |
+| 1        | Semestre ser cancelado                       | 5      |5        | Externo      | Não há                                                                      |
+| 2        | Membros trancarem a disciplina               | 5      |5        | Pessoal      | Tentar convencer os estudantes e torcer                                     |
+| 3        | Conflito de horário com outras disciplinas   | 3      |3        | Pessoal      | Trancar disciplinas, encontrar tempo fora do turno diurno                   |
+| 4        | Falta de conhecimento com as tecnologias     | 5      |5        | Pessoal      | Estudo, pareamento                                                          |
+| 3        | Dificuldade de organização das tarefas       | 4      |4        | Planejamento | Informações acerca de entregas centralizadas no grupo de Whatsapp da equipe |
+| 4        | Dificuldade de encontrar tempo para reuniões | 4      |4        | Planejamento | Planejamento feito com antecedência entre os membros                        |
+| 4        | Falta em reuniões                            | 3      |3        | Pessoal      | Conversa e conciliação entre membros                                        |
+| 3        | Atraso nas entregas                          | 5      |5        | Planejamento | Conciliação de horários e balanceamento de tarefas                          |
+| 3        | Mudança dos requisitos                       | 4      |4        | Externo      | Readequação da equipe                                                       |
+
+Os números das colunas de Chance e Impacto vem de uma escala de 1 à 5, onde 1 representa uma baixa probabilidade ou impacto, e 5 representa uma alta probabilidade ou impacto.
