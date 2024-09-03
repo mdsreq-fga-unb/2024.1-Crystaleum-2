@@ -44,6 +44,8 @@
 
 ## **Gerenciamento de Riscos**
 
+Os números das colunas de Chance e Impacto vem de uma escala de 1 à 5, onde 1 representa uma baixa probabilidade ou impacto, e 5 representa uma alta probabilidade ou impacto.
+
 | Iteração | Risco                                        | Chance | Impacto | Natureza     | Solução                                                                     |
 |----------|----------------------------------------------|--------|---------|--------------|-----------------------------------------------------------------------------|
 | 1        | Computador dar defeito                       | 4      |4        | Pessoal      | Reinstalar OS                                                               |
@@ -56,5 +58,3 @@
 | 4        | Falta em reuniões                            | 3      |3        | Pessoal      | Conversa e conciliação entre membros                                        |
 | 3        | Atraso nas entregas                          | 5      |5        | Planejamento | Conciliação de horários e balanceamento de tarefas                          |
 | 3        | Mudança dos requisitos                       | 4      |4        | Externo      | Readequação da equipe                                                       |
-
-Os números das colunas de Chance e Impacto vem de uma escala de 1 à 5, onde 1 representa uma baixa probabilidade ou impacto, e 5 representa uma alta probabilidade ou impacto.
