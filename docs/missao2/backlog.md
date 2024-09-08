@@ -33,34 +33,51 @@ Uma breve descrição de cada coluna:
 ### Requisitos Funcionais
 
 
-|ID | Épico | Funcionalidade | US | Critério de aceitação
+|ID | Épico | Funcionalidade | US | Critério(s) de aceitação
 | - |------------| ---- | --- | - |
-|1| Processo de desenvolvimento | Primeira pergunta do questionário | Eu como usuário, quero ler a característica de um método de desenvolvimento de software aleatório e escolher  o método correspondente |  - |
-|2| Processo de desenvolvimento | Primeira pergunta do questionário | Eu como usuário, quero receber uma pontuação relacionada à exatidão da escolha da alternativa no fim do jogo |  - |
-|3| Processo de desenvolvimento | Segunda pergunta do questionário | Eu como usuário, quero escolher um processo de desenvolvimento para um projeto com determinadas características para obter uma pontuação no jogo |  - |
-|4| Processo de desenvolvimento | Terceira pergunta do questionário | Eu como usuário, quero escolher um processo de desenvolvimento para um projeto com determinadas características para obter uma pontuação no jogo |  - |
-| 9 | Aspectos Humanos | Minigame de organização de equipe | Eu como jogador, quero entender a situação atual do projeto fictício | 999 |
-| 9 | Aspectos Humanos | Minigame de organização de equipe | Eu como jogador, quero saber os possíveis participantes da equipe solucionadora | 9999 |
-| 9 | Aspectos Humanos | Minigame de organização de equipe | Eu como jogador, quero escolher os dos participantes da equipe com base em seus atributos | 999 |
-| 9 | Aspectos Humanos | Minigame de organização de equipe | Eu como jogador, quero ver os atributos da equipe como um todo | 999 |
-| 8| Backlog | Minigame de backlog com PBB | Eu como usuário, quero poder visualizar o backlog do software a ser desenvolvido pela equipe de desenvolvimento da gamificação |  - |
-| 9| Backlog | Minigame de backlog com PBB | Eu como usuário, quero ordenar o backlog do software a ser desenvolvido pela equipe de desenvolvimento da gamificação utilizando o método COOrg |  1 |
-| 10| Backlog | Minigame de backlog com PBB | Eu como usuário, quero receber uma pontuação desta tarefa que será contabilizada na pontuação final do jogo |  - |
-| 11 | Backlog | Minigame de escolha de PBI com modelo ARO | Eu como usuário, quero ler uma lista de PBI e identificar os que estão escritos em modelo ARO | - |
-| 12 | Backlog | Minigame de escolha de PBI com modelo ARO | Eu como usuário, quero receber uma pontuação relacionada à exatidão da escolha da alternativa no fim do jogo | - |
-| 13 | Backlog | Pergunta de backlog com USM | Eu como usuário, quero ler a pergunta sobre USM e poder marcar uma resposta | - |
-| 14 | Backlog | Pergunta de backlog com USM | Eu como usuário, quero receber uma pontuação relacionada à exatidão da escolha da alternativa no fim do jogo | - |
-| 15 | Regras de negócio | Minigame de organização de equipe | - | - |
-| 16 | Casos de uso | Minigame de elaboração/correção de casos de uso | - | - |
+|1| Processo de desenvolvimento | Introdução | Eu como usuário, quero ler uma introdução sobre a fase que vou jogar | 1 |
+|2| Processo de desenvolvimento | Primeira pergunta do questionário | Eu como usuário, quero ler a característica de um método de desenvolvimento de software aleatório e escolher  o método correspondente |  - |
+|3| Processo de desenvolvimento | Primeira pergunta do questionário | Eu como usuário, quero receber uma pontuação relacionada à exatidão da escolha da alternativa no fim do jogo |  - |
+|4| Processo de desenvolvimento | Segunda pergunta do questionário | Eu como usuário, quero escolher um processo de desenvolvimento para um projeto com determinadas características |  - |
+|5| Processo de desenvolvimento | Terceira pergunta do questionário | Eu como usuário, quero escolher um processo de desenvolvimento para um projeto com determinadas características |  - |
+|6| Aspectos Humanos | Introdução | Eu como usuário, quero ler uma introdução sobre a fase de aspectos humanos |  2 |
+| 7 | Aspectos Humanos | Minigame de organização de equipe | Eu como jogador, quero entender a situação atual do projeto fictício | 4 |
+| 8 | Aspectos Humanos | Minigame de organização de equipe | Eu como jogador, quero ver os possíveis participantes da equipe solucionadora | 5,6 |
+| 9 | Aspectos Humanos | Minigame de organização de equipe | Eu como jogador, quero escolher os participantes da equipe com base em seus atributos | 7,8 |
+| 10 | Aspectos Humanos | Minigame de organização de equipe | Eu como jogador, quero ver os atributos da equipe como um todo | 9 |
+| 11| Backlog | Introdução | Eu como usuário, quero ler uma introdução sobre a fase de backlog |  3 |
+|12| Backlog | Minigame de backlog | Eu como usuário, quero visualizar o backlog do software a ser desenvolvido pela equipe de desenvolvimento da gamificação |  10 |
+| 13| Backlog | Minigame de backlog | Eu como usuário, quero ordenar o backlog do software a ser desenvolvido pela equipe de desenvolvimento da gamificação utilizando o método COOrg |  11 |
+| 14 | Backlog | Minigame de escolha de PBI com modelo ARO | Eu como usuário, quero ver uma lista de PBI | 12 |
+| 15 | Backlog | Minigame de escolha de PBI com modelo ARO | Eu como usuário, quero  identificar os que estão escritos em modelo ARO | 13 |
+| 16 | Backlog | Pergunta de backlog com USM | Eu como usuário, quero ler a pergunta sobre USM  | 16 |
+| 17 | Backlog | Pergunta de backlog com USM | Eu como usuário, quero e poder marcar uma resposta | 17,18 |
+| 18 | Regras de negócio | Minigame de organização de equipe | - | - |
+| 19 | Casos de uso | Minigame de elaboração/correção de casos de uso | - | - |
 
 ### Critérios de aceitação
 
-| ID | US | Descrição |
-| - | - | - |
-| 1 | 9 | O usuário tem que ordenar o backlog clicando nas US na ordem correta, da primeira à última |
-| 2 | 9 | A pontuação do usuário nesta tarefa será contabilizada para aferição da pontuação final |
-| - | - | - |
-| - | - | - |
+| ID | Descrição |
+| - | - |
+| 1 | O usuário deve ser apresentado à primeira fase com uma tela com um pequeno texto contado pelo personagem do jogo um botão para prosseguir |
+| 2 | O usuário deve ser apresentado à fase de aspectos humanos em uma tela com um pequeno texto contado pelo personagem do jogo um botão para prosseguir |
+| 3 | O usuário deve ser apresentado à fase de backlog em uma tela com um pequeno texto contado pelo personagem do jogo com um botão para prosseguir|
+| 4 | A missão deve apresentar o tempo para a entrega, estabilidade dos requisitos, e disponibilidade do cliente como parâmetros quantificáveis para o usuário |
+| 5 | A tela de seleção deve apresentar os personagens disponíveis para se formar uma equipe |
+| 6 | O usuário deve conseguir selecionar uma quantidade pré-determinada de personagens, dentre todos que estão no banco de dados |
+| 7 | A tela de seleção deve mostrar claramente quais personagens estão selecionados, e quando o usuário pode consolidar a seleção e prosseguir |
+| 8 | O usuário deve conseguir consolidar a solução somente após cumprir uma cota pré-determinada, e então prosseguir para fora do minigame|
+| 9 | Conforme o usuário escolhe os personagens, a média dos atributos da equipe aparece na tela |
+| 10 | Tem que ter 5 US e elas têm que caber na tela |
+| 11 |  O usuário tem que ordenar o backlog clicando nas US na ordem correta, da primeira à última |
+| 12 |  Devem aparecer 5 PBIs |
+| 13 |  Os PBIs selecionados devem ser destacados dos outros |
+| 14 |  A pontuação do usuário nesta tarefa será contabilizada para aferição da pontuação final |
+| 15 |  A escolha deve ser por clique, eliminando os que não estão em modelo ARO |
+| 16 |  Deve aparecer uma pergunta curta com 4 alternativas |
+| 17 | A alternativa escolhida tem que estar destacada |
+| 18 | Tem que ter um botão de prosseguir |
+
 
 
 
