@@ -35,23 +35,23 @@ Uma breve descrição de cada coluna:
 
 |ID | Épico | Funcionalidade | US | Critério(s) de aceitação
 | - |------------| ---- | --- | - |
-|1| Processo de desenvolvimento | Introdução | Eu como usuário, quero ler uma introdução sobre a fase que vou jogar | 1 |
-|2| Processo de desenvolvimento | Primeira pergunta do questionário | Eu como usuário, quero ler a característica de um método de desenvolvimento de software aleatório e escolher  o método correspondente |  - |
-|3| Processo de desenvolvimento | Primeira pergunta do questionário | Eu como usuário, quero receber uma pontuação relacionada à exatidão da escolha da alternativa no fim do jogo |  - |
-|4| Processo de desenvolvimento | Segunda pergunta do questionário | Eu como usuário, quero escolher um processo de desenvolvimento para um projeto com determinadas características |  - |
-|5| Processo de desenvolvimento | Terceira pergunta do questionário | Eu como usuário, quero escolher um processo de desenvolvimento para um projeto com determinadas características |  - |
-|6| Aspectos Humanos | Introdução | Eu como usuário, quero ler uma introdução sobre a fase de aspectos humanos |  2 |
-| 7 | Aspectos Humanos | Minigame de organização de equipe | Eu como jogador, quero entender a situação atual do projeto fictício | 4 |
-| 8 | Aspectos Humanos | Minigame de organização de equipe | Eu como jogador, quero ver os possíveis participantes da equipe solucionadora | 5,6 |
-| 9 | Aspectos Humanos | Minigame de organização de equipe | Eu como jogador, quero escolher os participantes da equipe com base em seus atributos | 7,8 |
-| 10 | Aspectos Humanos | Minigame de organização de equipe | Eu como jogador, quero ver os atributos da equipe como um todo | 9 |
-| 11| Backlog | Introdução | Eu como usuário, quero ler uma introdução sobre a fase de backlog |  3 |
-|12| Backlog | Minigame de backlog | Eu como usuário, quero visualizar o backlog do software a ser desenvolvido pela equipe de desenvolvimento da gamificação |  10 |
-| 13| Backlog | Minigame de backlog | Eu como usuário, quero ordenar o backlog do software a ser desenvolvido pela equipe de desenvolvimento |  11 |
-| 14 | Backlog | Minigame de escolha de PBI com modelo ARO | Eu como usuário, quero ver uma lista de PBI | 12 |
-| 15 | Backlog | Minigame de escolha de PBI com modelo ARO | Eu como usuário, quero  identificar os que estão escritos em modelo ARO | 13 |
-| 16 | Backlog | Pergunta de backlog com USM | Eu como usuário, quero ler a pergunta sobre USM  | 16 |
-| 17 | Backlog | Pergunta de backlog com USM | Eu como usuário, quero e poder marcar uma resposta | 17,18 |
+|1| Processo de desenvolvimento | Introdução | **US1** - Eu como usuário, quero uma breve explicação do jogo <br><br> **US2**  Eu como usuário, quero ler uma introdução sobre a fase que vou jogar | 1 |
+|2| Processo de desenvolvimento | Primeira pergunta do questionário |**US3** - Eu como usuário, quero ler a característica de um método de desenvolvimento de software aleatório <br><br> **US4** - Eu como usuário quero ser capaz de escolher o método correspondente |  - |
+|3| Processo de desenvolvimento | Segunda pergunta do questionário | **US5** - Eu como usuário, quero ler a segunda pergunta do questionário <br><br> **US6** - Eu como usuário, quero escolher um processo de desenvolvimento para um projeto com determinadas características  |  - |
+|4| Processo de desenvolvimento | Terceira pergunta do questionário |**US7** - Eu como usuário, quero ler a terceira pergunta do questionário <br><br> **US8** - Eu como usuário, quero escolher um processo de desenvolvimento para um projeto com determinadas características |  - |
+|5| Aspectos Humanos | Introdução | **US9** - Eu como usuário, quero ler o título dessa fase para saber do que se trata <br><br> **US10** Eu como usuário, quero ler uma introdução sobre a fase de aspectos humanos  |  2 |
+| 6 | Aspectos Humanos | Minigame de organização de equipe | **US11** - Eu como jogador, quero entender a situação atual do projeto fictício | 4 |
+| 7 | Aspectos Humanos | Minigame de organização de equipe | **US12** - Eu como jogador, quero ver os possíveis participantes da equipe solucionadora | 5,6 |
+| 8 | Aspectos Humanos | Minigame de organização de equipe | **US13** - Eu como jogador, quero escolher os participantes da equipe com base em seus atributos | 7,8 |
+| 9 | Aspectos Humanos | Minigame de organização de equipe | **US14** - Eu como jogador, quero ver os atributos da equipe como um todo | 9 |
+| 10| Backlog | Introdução | **US15** - Eu como usuário, quero ler uma introdução sobre a fase de backlog <br><br> **US16** - Eu como usuário, quero |  3 |
+|11| Backlog | Minigame de backlog | **US17** - Eu como usuário, quero visualizar o backlog do software a ser desenvolvido pela equipe de desenvolvimento da gamificação |  10 |
+| 12| Backlog | Minigame de backlog | **US18** - Eu como usuário, quero ordenar o backlog do software a ser desenvolvido pela equipe de desenvolvimento |  11 |
+| 13 | Backlog | Minigame de escolha de PBI com modelo ARO | **US19** - Eu como usuário, quero ver uma lista de PBI | 12 |
+| 14 | Backlog | Minigame de escolha de PBI com modelo ARO | **US20** - Eu como usuário, quero  identificar os que estão escritos em modelo ARO | 13 |
+| 15 | Backlog | Pergunta de backlog com USM | **US21** - Eu como usuário, quero ler a pergunta sobre USM  | 16 |
+| 16 | Backlog | Pergunta de backlog com USM | **US22** - Eu como usuário, quero poder marcar uma resposta | 17, 18 |
+|17| Final do jogo | Feedback| **US23** - Eu como usuário, quero receber uma pontuação relacionada à exatidão da escolha da alternativa no fim do jogo <br><br> **US24** - Eu como usuário, quero ler um breve texto sobre minha jornada no jogo |  - |
 | 18 | Regras de negócio | Minigame de organização de equipe | - | - |
 | 19 | Casos de uso | Minigame de elaboração/correção de casos de uso | - | - |
 
@@ -77,6 +77,8 @@ Uma breve descrição de cada coluna:
 | 16 |  Deve aparecer uma pergunta curta com 4 alternativas |
 | 17 | A alternativa escolhida tem que estar destacada |
 | 18 | Tem que ter um botão de prosseguir |
+| 19 | A pontuação final do jogador |
+| 20 | Um pequeno texto com o feedback do jogador |
 
 
 
