@@ -1,10 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://d1cqcrn3qooy"]
+[gd_scene load_steps=4 format=3 uid="uid://d1cqcrn3qooy"]
 
 [ext_resource type="Script" path="res://scripts/historia1.gd" id="1_73xqy"]
-[ext_resource type="Texture2D" uid="uid://deycaaa0ln5dn" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 02 - Stars.png" id="1_q3jvy"]
-[ext_resource type="Texture2D" uid="uid://cu7d36apijxju" path="res://assets/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Condesed/Starry background  - Layer 01 - Void.png" id="2_ors4m"]
+[ext_resource type="Texture2D" uid="uid://dq7qaqj0wj5y5" path="res://assets/backgrounds/intro-crystaleum_1.png" id="3_i4yhr"]
 [ext_resource type="Theme" uid="uid://dyyka4ilsiwu8" path="res://assets/temaButton.tres" id="3_q8cev"]
-[ext_resource type="FontFile" uid="uid://ncbwmv62n8av" path="res://assets/fontes/crang/Crang.ttf" id="3_v8x8f"]
 
 [node name="Historia" type="Control"]
 layout_mode = 3
@@ -15,30 +13,13 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_73xqy")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(10, 164)
-texture = ExtResource("2_ors4m")
-
-[node name="TextureRect" type="TextureRect" parent="."]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-texture = ExtResource("1_q3jvy")
-expand_mode = 1
-stretch_mode = 3
-
-[node name="BoxContainer" type="BoxContainer" parent="TextureRect"]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="Intro-crystaleum1" type="Sprite2D" parent="."]
+position = Vector2(157, 89.75)
+scale = Vector2(1.25347, 1.25347)
+texture = ExtResource("3_i4yhr")
 
 [node name="ButtonSkip" type="Button" parent="."]
+show_behind_parent = true
 texture_filter = 6
 texture_repeat = 1
 layout_direction = 2
@@ -48,43 +29,32 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -34.0
-offset_top = -27.0
-offset_right = -8.0
-offset_bottom = -8.0
+offset_left = -320.0
+offset_top = -179.0
+offset_bottom = -1.0
 grow_horizontal = 0
 grow_vertical = 0
 size_flags_vertical = 0
 size_flags_stretch_ratio = 0.0
 theme = ExtResource("3_q8cev")
 theme_override_font_sizes/font_size = 9
-text = ">>"
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 2
-offset_left = 2.0
-offset_top = 18.0
-offset_right = 309.0
-offset_bottom = 169.0
+offset_left = 5.0
+offset_top = 124.0
+offset_right = 315.0
+offset_bottom = 175.0
 size_flags_horizontal = 4
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_colors/font_shadow_color = Color(0.0901961, 0.0901961, 0.0901961, 1)
+theme_override_colors/font_color = Color(0.380392, 0.0941176, 0.317647, 1)
+theme_override_colors/font_shadow_color = Color(0.223529, 0.0352941, 0.278431, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("3_v8x8f")
-theme_override_font_sizes/font_size = 10
-text = "Estamos    vivendo    o   ano   de   3257   e   
-a   exploração   espacial  é    um  negócio  
-extremamente  lucrativo...   
-
- por  não  haver  uma  legislação  universal,
-  várias  corporações  buscam  planetas 
-distantes  para  explorar   recursos . 
-
-Inúmeras regiões   foram  destruídas  e  
-raças  inteiras  dizimadas   pela 
-ganância   dessas   corporações! 
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 8
+text = "A galáxia sofre a ameaça de ser destruida pela exploração da empresa tecnológica Spark Tech, que agora minera diamantes para seus super-computadores e expõe os da raça Fairy Solaris (toda a linhagem da princesa Solaris Faethorn) a trabalhos forçados.
 "
 horizontal_alignment = 1
+autowrap_mode = 2
 text_direction = 1
 
 [connection signal="pressed" from="ButtonSkip" to="." method="_on_button_skip_pressed"]

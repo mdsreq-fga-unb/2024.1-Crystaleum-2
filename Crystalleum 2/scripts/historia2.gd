@@ -12,4 +12,5 @@ func _process(_delta):
 
 # Aqui começa o jogo
 func _on_button_skip_pressed():
-	get_tree().change_scene_to_file("res://levels/Casa-Crys/casa.tscn")
+	get_tree().change_scene_to_file("res://scenes/historia3.tscn")
+	#get_tree().change_scene_to_file("res://levels/Casa-Crys/casa.tscn")
