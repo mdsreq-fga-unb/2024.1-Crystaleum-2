@@ -59,4 +59,8 @@ nav:
   - Missão 3:
       - PBB: missao3/pbb.md
       - USM: missao3/usm.md
+  - Missão 4:
+      - Correções Missão 3:
+        - PBB Corrigido: missao4/correcoes-missao3/pbb.md
+        # - USM: missao4/correcoes-missao3.md
   
