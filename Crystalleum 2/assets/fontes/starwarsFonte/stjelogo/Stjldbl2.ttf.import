@@ -15,6 +15,7 @@ dest_files=["res://.godot/imported/Stjldbl2.ttf-ec4f3021634d3dcc83f7f768ef649caa
 Rendering=null
 antialiasing=1
 generate_mipmaps=false
+disable_embedded_bitmaps=true
 multichannel_signed_distance_field=false
 msdf_pixel_range=8
 msdf_size=48

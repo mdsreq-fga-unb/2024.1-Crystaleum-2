@@ -16,3 +16,4 @@ func _on_config_pressed():
 
 func _on_sair_pressed():
 	get_tree().quit()
+	

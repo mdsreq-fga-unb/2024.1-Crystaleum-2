@@ -47,7 +47,7 @@ Uma breve descrição de cada coluna:
 | 10 | Aspectos Humanos | Minigame de organização de equipe | Eu como jogador, quero ver os atributos da equipe como um todo | 9 |
 | 11| Backlog | Introdução | Eu como usuário, quero ler uma introdução sobre a fase de backlog |  3 |
 |12| Backlog | Minigame de backlog | Eu como usuário, quero visualizar o backlog do software a ser desenvolvido pela equipe de desenvolvimento da gamificação |  10 |
-| 13| Backlog | Minigame de backlog | Eu como usuário, quero ordenar o backlog do software a ser desenvolvido pela equipe de desenvolvimento da gamificação utilizando o método COOrg |  11 |
+| 13| Backlog | Minigame de backlog | Eu como usuário, quero ordenar o backlog do software a ser desenvolvido pela equipe de desenvolvimento |  11 |
 | 14 | Backlog | Minigame de escolha de PBI com modelo ARO | Eu como usuário, quero ver uma lista de PBI | 12 |
 | 15 | Backlog | Minigame de escolha de PBI com modelo ARO | Eu como usuário, quero  identificar os que estão escritos em modelo ARO | 13 |
 | 16 | Backlog | Pergunta de backlog com USM | Eu como usuário, quero ler a pergunta sobre USM  | 16 |
