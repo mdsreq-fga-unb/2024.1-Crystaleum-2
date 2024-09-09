@@ -51,9 +51,10 @@ Uma breve descrição de cada coluna:
 | 14 | Backlog | Minigame de escolha de PBI com modelo ARO | **US20** - Eu como usuário, quero  identificar os que estão escritos em modelo ARO | 13 |
 | 15 | Backlog | Pergunta de backlog com USM | **US21** - Eu como usuário, quero ler a pergunta sobre USM  | 16 |
 | 16 | Backlog | Pergunta de backlog com USM | **US22** - Eu como usuário, quero poder marcar uma resposta | 17, 18 |
-|17| Final do jogo | Feedback| **US23** - Eu como usuário, quero receber uma pontuação relacionada à exatidão da escolha da alternativa no fim do jogo <br><br> **US24** - Eu como usuário, quero ler um breve texto sobre minha jornada no jogo |  - |
-| 18 | Regras de negócio | Minigame de organização de equipe | - | - |
-| 19 | Casos de uso | Minigame de elaboração/correção de casos de uso | - | - |
+|17| Final do jogo | Pontuação| **US23** - Eu como usuário, quero receber uma pontuação relacionada à exatidão da escolha da alternativa no fim do jogo <br><br> **US24** - Eu como usuário, quero ver em qual rank eu fiquei (A,B,C,D) | 19 |
+|18| Final do jogo | Feedback| **US25** - Eu como usuário, quero ler um breve texto sobre minha jornada no jogo <br><br> **US26** -  Eu como usuário, quero ler um breve texto sobre o pontos principais que eu poderia melhorar |  20 |
+| 19 | Regras de negócio | Minigame de organização de equipe | - | - |
+| 20 | Casos de uso | Minigame de elaboração/correção de casos de uso | - | - |
 
 ### Critérios de aceitação
 
@@ -77,8 +78,8 @@ Uma breve descrição de cada coluna:
 | 16 |  Deve aparecer uma pergunta curta com 4 alternativas |
 | 17 | A alternativa escolhida tem que estar destacada |
 | 18 | Tem que ter um botão de prosseguir |
-| 19 | A pontuação final do jogador |
-| 20 | Um pequeno texto com o feedback do jogador |
+| 19 | A pontuação final do jogador com o rank dele|
+| 20 | Um pequeno texto com o feedback do jogador e pontos a melhorar |
 
 
 
