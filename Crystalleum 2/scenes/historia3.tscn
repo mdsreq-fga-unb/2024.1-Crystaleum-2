@@ -1,22 +1,22 @@
-[gd_scene load_steps=4 format=3 uid="uid://dut6miaen2cmf"]
+[gd_scene load_steps=4 format=3 uid="uid://bgj26xcpnicer"]
 
-[ext_resource type="Script" path="res://scripts/historia2.gd" id="1_kh127"]
-[ext_resource type="Texture2D" uid="uid://cahws3omhvhn4" path="res://assets/backgrounds/intro-crystaleum_2.png" id="2_2yk1r"]
-[ext_resource type="Theme" uid="uid://dyyka4ilsiwu8" path="res://assets/temaButton.tres" id="3_p85fs"]
+[ext_resource type="Script" path="res://scripts/historia3.gd" id="1_g8ccj"]
+[ext_resource type="Texture2D" uid="uid://bf36ieylepjjh" path="res://assets/backgrounds/intro-crystaleum_3.png" id="2_2b61d"]
+[ext_resource type="Theme" uid="uid://dyyka4ilsiwu8" path="res://assets/temaButton.tres" id="3_e03gh"]
 
-[node name="Historia2" type="Control"]
+[node name="Historia3" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_kh127")
+script = ExtResource("1_g8ccj")
 
-[node name="Intro-crystaleum2" type="Sprite2D" parent="."]
-position = Vector2(156.778, 89.5)
-scale = Vector2(1.24306, 1.24306)
-texture = ExtResource("2_2yk1r")
+[node name="Intro-crystaleum3" type="Sprite2D" parent="."]
+position = Vector2(158, 90)
+scale = Vector2(1.25, 1.25)
+texture = ExtResource("2_2b61d")
 
 [node name="ButtonSkip" type="Button" parent="."]
 show_behind_parent = true
@@ -36,22 +36,22 @@ grow_horizontal = 0
 grow_vertical = 0
 size_flags_vertical = 0
 size_flags_stretch_ratio = 0.0
-theme = ExtResource("3_p85fs")
+theme = ExtResource("3_e03gh")
 theme_override_font_sizes/font_size = 9
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 5.0
-offset_top = 129.0
-offset_right = 315.0
-offset_bottom = 175.0
+offset_left = 2.0
+offset_top = 120.0
+offset_right = 318.0
+offset_bottom = 180.0
 size_flags_horizontal = 4
 theme_override_colors/font_color = Color(0.380392, 0.0941176, 0.317647, 1)
 theme_override_colors/font_shadow_color = Color(0.223529, 0.0352941, 0.278431, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/line_spacing = 0
 theme_override_font_sizes/font_size = 8
-text = "A brava guerreira Crys se tornou uma referência para a Vanguarda da Liberdade Cósmica, a facção Guardiã, por ter refeito os passos do longevo Marsicano em direção ao restabelecimento da paz."
+text = "E agora, 500 anos depois, toda a Vanguarda tem nas mãos um desafio enorme, que só pode ser vencido em conjunto. Juntos, Plumbu-Rubrum, Lucian, Princesa Solaris Faethorn, JR-15, Stella Armoria, John Heinemann e Batata Prime empenharão esforços para deter o avanço da maliciosa Spark Tech em sua mais nova afronta."
 horizontal_alignment = 1
 autowrap_mode = 2
 text_direction = 1

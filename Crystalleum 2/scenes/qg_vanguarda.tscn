@@ -1,0 +1,70 @@
+[gd_scene load_steps=10 format=3 uid="uid://cf3j4rasha318"]
+
+[ext_resource type="Texture2D" uid="uid://bvik5jb8omsco" path="res://assets/backgrounds/bg-crystaleum_qg.png" id="1_l0td6"]
+[ext_resource type="Script" path="res://scenes/qg_vanguarda.gd" id="1_nmr6g"]
+[ext_resource type="Texture2D" uid="uid://d2higjshv6m3w" path="res://assets/characters/BatataPrime.png" id="2_uk6kl"]
+[ext_resource type="Texture2D" uid="uid://cdpbjdpv4et6t" path="res://assets/characters/JohnHeinemann.png" id="3_u64aa"]
+[ext_resource type="Texture2D" uid="uid://bdaxwr4n5gpyx" path="res://assets/characters/JR-15.png" id="4_gp556"]
+[ext_resource type="Texture2D" uid="uid://rpy4t4ftjf8v" path="res://assets/characters/Lucian.png" id="5_7hdjl"]
+[ext_resource type="Texture2D" uid="uid://ds7kbstvjej5k" path="res://assets/characters/plumbu-1.png.png" id="6_7bxfj"]
+[ext_resource type="Texture2D" uid="uid://dxdoaxsrh8efm" path="res://assets/characters/PrincesaSolarisFaethorn2.png" id="7_lsv3p"]
+[ext_resource type="Texture2D" uid="uid://dg5v0cj8s28pp" path="res://assets/characters/StellaArmoria.png" id="8_vl588"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_nmr6g")
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(155, 90)
+scale = Vector2(1.25, 1.25)
+texture = ExtResource("1_l0td6")
+
+[node name="BatataPrime" type="Sprite2D" parent="."]
+position = Vector2(305, 51)
+texture = ExtResource("2_uk6kl")
+
+[node name="JohnHeinemann" type="Sprite2D" parent="."]
+position = Vector2(273, 75)
+texture = ExtResource("3_u64aa")
+
+[node name="Jr-15" type="Sprite2D" parent="."]
+position = Vector2(289, 115)
+texture = ExtResource("4_gp556")
+
+[node name="Lucian" type="Sprite2D" parent="."]
+position = Vector2(151, 77)
+texture = ExtResource("5_7hdjl")
+
+[node name="Plumbu-1_png" type="Sprite2D" parent="."]
+position = Vector2(214, 106)
+scale = Vector2(1.14063, 1.14063)
+texture = ExtResource("6_7bxfj")
+
+[node name="PrincesaSolarisFaethorn" type="Sprite2D" parent="."]
+position = Vector2(198, 53)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("7_lsv3p")
+
+[node name="StellaArmoria" type="Sprite2D" parent="."]
+position = Vector2(94, 111)
+texture = ExtResource("8_vl588")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+custom_minimum_size = Vector2(128, 72)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -36.0
+offset_top = -64.0
+offset_right = 36.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 4

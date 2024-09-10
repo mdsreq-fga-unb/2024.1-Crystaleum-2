@@ -13,12 +13,13 @@ config_version=5
 config/name="Crystaleum 2"
 run/main_scene="res://scenes/menu.tscn"
 config/features=PackedStringArray("4.3", "Mobile")
-config/icon="res://levels/FishingOnigiri/assets/comando-estelar.png"
+config/icon="res://icon.svg"
 
 [autoload]
 
 DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
 Global="*res://Global.gd"
+SelectionManager="*res://minigame_1/SelectionManager.gd.gd"
 
 [display]
 
@@ -34,7 +35,7 @@ project/assembly_name="Crystaleum"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg", "res://addons/godot-sqlite/plugin.cfg", "res://addons/gut/plugin.cfg", "res://addons/scrolllistcontainer/plugin.cfg")
+enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg", "res://addons/godot-sqlite/plugin.cfg", "res://addons/gut/plugin.cfg")
 
 [input]
 

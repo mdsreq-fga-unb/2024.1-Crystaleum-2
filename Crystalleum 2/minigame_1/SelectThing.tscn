@@ -1,0 +1,104 @@
+[gd_scene load_steps=6 format=3 uid="uid://cvsv0bd18wkb1"]
+
+[ext_resource type="Script" path="res://minigame_1/select_thing.gd" id="1_djnqn"]
+[ext_resource type="FontFile" uid="uid://bnh0lslf4yh87" path="res://addons/gut/fonts/CourierPrime-Regular.ttf" id="2_tognd"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f6xct"]
+bg_color = Color(0.14902, 0.14902, 0.14902, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mu2p4"]
+bg_color = Color(0.09, 0.09, 0.09, 0.784314)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gl6tq"]
+bg_color = Color(0.17, 0.17, 0.17, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.2, 0.2, 0.2, 1)
+border_blend = true
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+anti_aliasing = false
+
+[node name="SelectThing" type="Control"]
+z_index = 1025
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -128.0
+offset_top = -72.0
+offset_right = 128.0
+offset_bottom = 72.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 3
+script = ExtResource("1_djnqn")
+
+[node name="Scroll" type="ScrollContainer" parent="."]
+z_index = 1023
+z_as_relative = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_f6xct")
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="Scroll"]
+z_index = 1023
+layout_mode = 2
+columns = 3
+
+[node name="Button" type="Button" parent="."]
+visibility_layer = 2
+z_index = 2045
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -76.0
+offset_top = -14.0
+offset_right = -13.0
+offset_bottom = 3.0
+grow_horizontal = 0
+grow_vertical = 0
+focus_mode = 0
+mouse_force_pass_scroll_events = false
+theme_override_fonts/font = ExtResource("2_tognd")
+theme_override_font_sizes/font_size = 7
+theme_override_styles/hover = SubResource("StyleBoxFlat_mu2p4")
+theme_override_styles/normal = SubResource("StyleBoxFlat_gl6tq")
+text = "Formar Equipe"
+
+[node name="ErrouLabel" type="Label" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -28.5
+offset_top = -11.5
+offset_right = 28.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Errou :("
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
