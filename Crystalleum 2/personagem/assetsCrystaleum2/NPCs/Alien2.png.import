@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://tudm7ndj1hsf"
+=======
+uid="uid://cr3myn4uaksfs"
+>>>>>>> 46518fb (feedback)
 path="res://.godot/imported/Alien2.png-4e128e7a2ae6939c35885815627c9f84.ctex"
 metadata={
 "vram_texture": false

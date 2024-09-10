@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://ofuwvc123l5y"
+=======
+uid="uid://bsl63oergjh6c"
+>>>>>>> 46518fb (feedback)
 path="res://.godot/imported/PlayerStanding.png-a83fb64e1487c87ddf4b3316ccd03275.ctex"
 metadata={
 "vram_texture": false

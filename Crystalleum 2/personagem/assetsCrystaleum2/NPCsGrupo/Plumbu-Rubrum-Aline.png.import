@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://ciw6e0ecf67ox"
+=======
+uid="uid://2qjhyvpjp0tv"
+>>>>>>> 46518fb (feedback)
 path="res://.godot/imported/Plumbu-Rubrum-Aline.png-4920ade580b07a0b542f80df5fcbaecc.ctex"
 metadata={
 "vram_texture": false

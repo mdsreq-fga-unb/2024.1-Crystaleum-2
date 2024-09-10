@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://oypxgj5dw3bd"
+=======
+uid="uid://dal7g3ca4rugu"
+>>>>>>> 46518fb (feedback)
 path="res://.godot/imported/StellaArmoria.png-c7807c18c477f45ed827351e0a27006f.ctex"
 metadata={
 "vram_texture": false

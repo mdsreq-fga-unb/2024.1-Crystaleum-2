@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://dlfte8eo3hp3x"
+=======
+uid="uid://nkdef1gj6qss"
+>>>>>>> 46518fb (feedback)
 path="res://.godot/imported/PrincesaSolarisFaethorn.png-42a3039b5739822a916be634ab63d266.ctex"
 metadata={
 "vram_texture": false

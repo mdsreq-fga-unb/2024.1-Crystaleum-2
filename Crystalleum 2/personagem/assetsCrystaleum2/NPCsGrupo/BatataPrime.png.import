@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://crsldm6vgili0"
+=======
+uid="uid://bgcgpf4nsqasu"
+>>>>>>> 46518fb (feedback)
 path="res://.godot/imported/BatataPrime.png-43000954e32fa2e6007d9404b3efd58a.ctex"
 metadata={
 "vram_texture": false

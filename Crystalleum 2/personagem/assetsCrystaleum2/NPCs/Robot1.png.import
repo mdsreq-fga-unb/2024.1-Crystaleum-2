@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://wve5oa4ifny7"
+=======
+uid="uid://djxuyquq5mlbr"
+>>>>>>> 46518fb (feedback)
 path="res://.godot/imported/Robot1.png-d4202bb4d177a4997f53962a09530930.ctex"
 metadata={
 "vram_texture": false

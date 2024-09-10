@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://clow8qq1xp535"
+=======
+uid="uid://b0muveqpn8ned"
+>>>>>>> 46518fb (feedback)
 path="res://.godot/imported/Lucian.png-69edffab8a7a6def2e2237f1cf192063.ctex"
 metadata={
 "vram_texture": false
