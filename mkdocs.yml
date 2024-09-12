@@ -33,8 +33,9 @@ theme:
 
 # Page tree
 nav:
-  - Nossa história: index.md
-  - Roteiro: roteiro.md
+  - A História:
+    - Nossa história: index.md
+    - Roteiro: historia/roteiro.md
   - Visão Geral do Produto:
       - Posição do Produto: visao-produto/posicao-produto.md
       - Problema: visao-produto/problema.md

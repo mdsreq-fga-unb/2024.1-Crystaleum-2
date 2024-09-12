@@ -16,12 +16,12 @@ Cada etapa do jogo será correspondente a um "desafio-problema", onde o jogador 
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/ aline-melo"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/91230175?v=4" width="100px;" alt=""/><br /><sub><b>Aline Melo</b></sub></a><br />
+    <td align="center"><a href="https://github.com/aline-melo"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/91230175?v=4" width="100px;" alt=""/><br /><sub><b>Aline Melo</b></sub></a><br />
     <td align="center"><a href="https://github.com/antonioleaojr"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/72047826?v=4" width="100px;" alt=""/><br /><sub><b>Antonio Júnior</b></sub></a><br />
-    <td align="center"><a href=" https://github.com/gravelylara "><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/118694498?v=4" width="100px;" alt=""/><br /><sub><b>Lara Giuliana</b></sub></a><br />
-    <td align="center"><a href=" https://github.com/AguionStryke "><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/110430396?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Freire</b></sub></a><br />
-    <td align="center"><a href=" https://github.com/pedroyen21 "><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/72281928?v=4" width="100px;" alt=""/><br /><sub><b>Pedro Yen  </b></sub></a><br />
-    <td align="center"><a href="https://github.com/rayenealmeida"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/78622691?v=4" width="100px;" alt=""/><br /><sub><b>Thomas</b></sub></a><br />
+    <td align="center"><a href=" https://github.com/gravelylara"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/118694498?v=4" width="100px;" alt=""/><br /><sub><b>Lara Giuliana</b></sub></a><br />
+    <td align="center"><a href=" https://github.com/AguionStryke"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/110430396?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Freire</b></sub></a><br />
+    <td align="center"><a href=" https://github.com/pedroyen21"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/72281928?v=4" width="100px;" alt=""/><br /><sub><b>Pedro Yen  </b></sub></a><br />
+    <td align="center"><a href="https://github.com/thmasq"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/78622691?v=4" width="100px;" alt=""/><br /><sub><b>Thomas</b></sub></a><br />
     <td align="center"><a href="https://github.com/"><img style="border-radius: 50%;" src="" width="100px;" alt=""/><br /><sub><b>Vitor</b></sub></a><br />
     
   </tr>
